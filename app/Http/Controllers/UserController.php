@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Auth;
 
 class UserController extends Controller
 {
+    // Role management with jwt token and dynamic role set
 
     public function RegistrationForm () {
 
